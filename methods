@@ -1,0 +1,63 @@
+a block of code that performs specific tasks or work
+
+makes repetative task easy
+
+code becomes reusable
+
+code becomes modualar(divided into smaller part)
+
+easy to read
+
+easy to test
+
+easy to maintain
+
+
+
+dis Adv-
+code beconmes lengthy
+
+hard to debug
+
+we need write every repetative task instead of using a method
+
+hard to interpret
+
+code becomes repetative
+
+// Syntax of method:
+
+// AccessModifier returnType MethodName(){}
+
+Method Types:
+
+
+Method WIth no Return Type - a method that does not return any value.
+example - OTP sending doesn't require return
+
+Method with return Types - a method that return values back to the caller.
+Example - after transaction it shows the amount 
+
+Method with Parameter - a method that accept input values.
+Example - Search bar on youtube
+
+Method without Parameter - amethod that does not take any input
+Example - get current date/time
+
+Static Method - a method that belongs to the class not to the object
+Example - refer to Students.java we set schoolName static for every stdent
+
+Instance Method - method that belongs to object that are Instance Method except static method
+
+Static keyword - When we put static keyword in front of something(variable, method, class) it means this things belongs to the class not to any object 
+it will have only oe copy in the memory - only one copy of that member exist in memory regardless of how many object of the class you create
+and we access without creating object we use just with className.memberName();
+
+static is used in advance java to connect with database
+
+imp question
+
+1.why is main method always static?
+=> To give the JVM enough freedom that lets it use the method without creating any object.
+
+
